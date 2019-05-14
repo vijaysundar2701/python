@@ -1,6 +1,7 @@
-print("enter the number")
-a=int(input())
-if(a%2==0):
-    print("given number is even")
+a=int(input(""));
+if(a==0):
+    print("Zero");
+elif(a>0):
+    print("Positive");
 else:
-    print("given number is odd")
+    print("Negative");
