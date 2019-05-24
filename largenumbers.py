@@ -1,6 +1,4 @@
-v=int(input("enter the value of v"))
-i=int(input("enter the value of i"))
-j=int(input("enter the value of j"))
+v,i,j=input().split()
 if(v>i and v>j):
     print(v)
 elif(i>j):
