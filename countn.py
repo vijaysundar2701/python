@@ -1,2 +1,3 @@
-v=input()
-print(len(v))
+o=int(input())
+h=len(str(o))
+print(h)
