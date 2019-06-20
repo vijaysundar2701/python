@@ -1,2 +1,3 @@
-o=input()
-print(o[::-1])
+g=input()
+h=''.join(reversed(g))
+print(h)
