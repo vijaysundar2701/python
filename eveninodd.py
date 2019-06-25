@@ -1,13 +1,9 @@
 x=int(input())
 y=list(map(int,input().split()))
-h=[]
 l=[]
 for i in range(0,len(y)):
-    if i==y[i]:
-        h.append(i)
-    elif y[i]%2==0 and i!=y[i]:
+    if y[i]%2==0 and i%2==1:
         l.append(y[i])
-    else:
+    elif y[i]%2==1 and i%2==0:
         l.append(y[i])
-print(*l,sep=' ')        
-        
+print(*l,sep=' ')   
