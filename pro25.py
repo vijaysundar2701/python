@@ -1,12 +1,12 @@
-ts=int(input())
-ls=list(map(int,input().split()))
-ss=[]
+t=int(input())
+l=list(map(int,input().split()))
+s=[]
 a=1
-for i in range(ts-1):
-    if ls[i]<ls[i+1]:
+for i in range(t-1):
+    if l[i]<l[i+1]:
         a+=1
     else:
-        ss.append(a)
+        s.append(a)
         a=1
-ss.append(a)
-print(max(ss))
+s.append(a)
+print(max(s))
