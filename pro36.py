@@ -1,9 +1,10 @@
-u=int(input())
-k=[int(i) for i in input().split()]
-o=0
-for i in range(1,u-1):
-    if k[i]<k[i-1] and k[i]<k[i+1]:
-        o+=1
-    elif k[i]>k[i-1] and k[i]>k[i+1]:
-        o+=1
-print(o)
+v = int(input())
+ss = [ int(x) for x in input().split()]
+v = len(ss)
+cc = 0
+for i in range(0,v-2) :
+    for j in range(i+1, v-1):
+        for k in range(j+1, v):
+            if cc[i] > cc[j] > cc[k] :
+                cc += 1
+print(cc)
