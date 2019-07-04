@@ -1,0 +1,6 @@
+vj,vk=map(int,input().split())
+nmn=list(map(int,input().split()))
+sv=list(map(int,input().split()))
+h=sum(sv)
+o=sum(nmn33)
+print((h+vk)//o)
