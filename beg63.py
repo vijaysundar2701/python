@@ -1,2 +1,3 @@
-r=list(map(int,input().split()))
-print(min(r))
+#vj
+q=list(map(int,input().split()))
+print(min(q))
