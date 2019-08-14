@@ -1,1 +1,3 @@
-print("hello world")
+a="hello"
+z="world"
+print(a+" "+z)
