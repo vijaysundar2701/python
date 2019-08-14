@@ -1,3 +1,2 @@
-a="hello"
-z="world"
-print(a+" "+z)
+vr=input()
+print(vr)
