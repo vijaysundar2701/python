@@ -1,2 +1,2 @@
-a=int(input())
-print(a*2)
+vr=int(input())
+print(vr*2)
