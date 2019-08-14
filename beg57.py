@@ -3,3 +3,5 @@ k=list(map(int,input().split()))[:p]
 if q in k:
     c=k.count(q)
     print(c)
+else:
+    print(0)
