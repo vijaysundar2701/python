@@ -1,2 +1,3 @@
 q=float(input())
-print(round(q))
+p=q+0.5
+print(round(p))
